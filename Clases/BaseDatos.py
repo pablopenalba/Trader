@@ -39,4 +39,5 @@ class BaseDatos:
         cursor = self._conn.cursor()
         cursor.execute(query)
         registro = cursor.fetchone()
+
         return registro[0]

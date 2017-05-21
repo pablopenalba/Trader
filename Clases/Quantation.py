@@ -14,3 +14,10 @@ class Quantation:
         self._minimo=0
         self._cierre=0
         self._volumen=0
+
+    def Create(self):
+        pass
+    def Update(self):
+        pass
+    def Delete(self):
+        pass

@@ -26,7 +26,7 @@ class Operacion:
             print "Error al crear la operacion"
         try:
             query1="SELECT max(id) FROM accion"
-            id=oBase.ConsultaSoloValor(query)
+            id=oBase.ConsultaSoloValor(query1)
             self._Id=id
         except:
               print "Error trying to get id"
